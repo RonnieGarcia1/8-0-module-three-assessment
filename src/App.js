@@ -12,8 +12,8 @@ function App() {
             <nav>
                 <Link to="/"><img src={"https://mir-s3-cdn-cf.behance.net/project_modules/disp/4809e723428951.5632324de6064.jpg"} alt="ghibli icon"/></Link>
                 <Link to="/">Home</Link>
-                <Link to="/Movies"><a href="/movies">Movies</a></Link>
-                <Link to="/People"><a href="/people">People</a></Link>
+                <Link to="/movies"><a href="/movies">Movies</a></Link>
+                <Link to="/people"><a href="/people">People</a></Link>
                 <Link to="/locations"><a href="/locations">Locations</a></Link>
             </nav>
 

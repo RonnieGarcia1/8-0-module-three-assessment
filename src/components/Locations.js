@@ -4,8 +4,8 @@ class Locations extends Component{
     constructor(){
       super();
       this.state = {
-      locationsData: [],
-      clicked: true,  
+          locationsData: [],
+          clicked: true,  
       }
     }
 
