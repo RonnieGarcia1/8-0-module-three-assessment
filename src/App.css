@@ -2,9 +2,13 @@
   text-align: center;
 }
 
+body{
+  background-color: rgb(73, 194, 255);
+}
 nav {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(73, 255, 225);
 }
 
 nav img {

@@ -32,13 +32,11 @@ class Locations extends Component{
         
         return( 
         <div>
-            <ul>
               <li>
                 <div>Name: {geos.name}</div>
                 <div>Climate: {geos.climate}</div>
                 <div>Terrain: {geos.terrain}</div>
               </li>
-            </ul>   
         </div>
         )
       })    
@@ -47,7 +45,9 @@ class Locations extends Component{
         <div className="locations">
         <h1>List of Locations</h1>
         <button onClick={ this.handleSubmit }>Show Locations</button>
+        <ul>
         { varLocations }
+        </ul>   
         </div>
       )
     }
