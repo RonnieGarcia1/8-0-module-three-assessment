@@ -1,5 +1,8 @@
 import "./App.css";
-import Home from './components/Home'
+import Home from './components/Home';
+import Movies from "./components/Movies";
+import People from "./components/People";
+import Locations from "./components/Locations";
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 function App() {
@@ -11,14 +14,14 @@ function App() {
                 <Link to="/">Home</Link>
                 <Link to="/Movies"><a href="/movies">Movies</a></Link>
                 <Link to="/People"><a href="/people">People</a></Link>
-                <Link to="/Locations"><a href="/locations">Locations</a></Link>
+                <Link to="/locations"><a href="/locations">Locations</a></Link>
             </nav>
 
           <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/Movies/" component={Home} />
-              <Route path="/People/" component={Home} />
-              <Route path="/Locations/" component={Home} />
+              <Route exact path="/" component={Home}/>
+              <Route path="/Movies/" component={Movies}/>
+              <Route path="/People/" component={People}/>
+              <Route path="/Locations/" component={Locations}/>
           </Switch>
         </Router>
     </div>

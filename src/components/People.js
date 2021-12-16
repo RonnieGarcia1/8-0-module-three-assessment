@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-class Movies extends Component{
+class People extends Component{
     constructor(){
       super();
       this.state = {
@@ -9,11 +9,10 @@ class Movies extends Component{
     }
     render(){
       return(
-        <h1>Movies</h1>
+        <h1>People</h1>
       )
     }
   }
 
-  export default Movies;
-  
+  export default People;
   
